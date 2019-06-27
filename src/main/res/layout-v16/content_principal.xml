@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    tools:showIn="@layout/app_bar_principal">
+
+    <ImageView
+        android:id="@+id/Fondo"
+        android:layout_width="840dp"
+        android:layout_height="1087dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondo1"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txtNivel"
+            android:layout_height="129dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="249dp"
+            android:fontFamily="@font/montserratregular"
+            android:textSize="100dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_alignTop="@+id/txtNivel"
+            android:layout_alignEnd="@+id/txtNivel"
+            android:layout_alignRight="@+id/txtNivel"
+            android:layout_alignBottom="@+id/txtNivel"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="-47dp"
+            android:layout_marginRight="-47dp"
+            android:layout_marginBottom="7dp"
+            android:gravity="center"
+            android:text="%"
+            android:textColor="@android:color/background_light"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNivel"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="116dp"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="SMARTPHONE"
+            android:textColor="#252262"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="27dp"
+            android:background="@android:color/transparent"
+            android:onClick="Menu"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/menudef" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AppCaidas</string>
+
+    //FONDO//
+    <string name="todo">TODO</string>
+
+    //BOTONES//
+    <string name="Boton1"></string>
+    <string name="Boton2"></string>
+    <string name="Boton3"></string>
+    <string name="Boton4"></string>
+
+    //CAIDA1//
+    <string name="Cada">CAÍDA</string>
+    <string name="FalsaCaida">FALSA CAÍDA</string>
+    <string name="DetecCaida">Detectada Caída</string>
+    <string name="start">Start</string>
+    <string name="_00_30">00:30</string>
+    <string name="_00_302">00:30</string>
+
+    //CAIDA2//
+    <string name="Ok">ESTOY BIEN</string>
+    <string name="Ayuda">AYUDA</string>
+    <string name="Emergencia">Necesita Emergencia?</string>
+
+    //MENU//
+    <string name="title_activity_principal">AppCaidas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="button">Button</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contacto">ContactoActivity</string>
+
+    //DISPOSITIVOS//
+    <string name="Conectado">CONECTADO</string>
+</resources>
